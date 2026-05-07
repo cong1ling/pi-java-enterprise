@@ -1,31 +1,35 @@
 # Usage Examples
 
-## Daily API development
+This file is a short navigation page. For the full task-oriented usage manual, start with:
 
-- Use the `springboot-api-development` skill
-- Use the `api-feature` prompt
+- `docs/usage-guide.en.md`
+- `docs/usage-guide.zh-CN.md`
 
-## Debugging test failures
+## Quick examples
+
+### Daily API development
+
+- Use `springboot-api-development`
+- Use `api-feature`
+- Use `/java-workflow-help` if you need common Maven or Spring Boot commands
+
+### Debugging test failures
 
 - Use `java-debugging`
 - Use `bugfix-root-cause`
-- Use `/maven-test-help <pasted failure output>` to classify Maven/JUnit failures
-- Use `/springboot-context-help <exception chain>` for startup and bean wiring issues
+- Use `/maven-test-help <pasted failure output>`
+- Use `/springboot-context-help <exception chain>` when startup wiring is involved
 
-## SQL troubleshooting
+### SQL troubleshooting
 
 - Use `mysql-performance-troubleshooting`
 - Use `sql-optimization`
-- Use `/mysql-query-hint` as a checklist before analyzing EXPLAIN output
+- Use `/mysql-query-hint`
 
-## Cache and Kafka design
+### Cache and Kafka design
 
 - Use `redis-cache-design`
 - Use `kafka-event-handling`
-
-## Project workflow help
-
-- Use `/java-workflow-help` to show common Maven and Spring Boot commands for the current project
 
 ## Theme recommendation
 

@@ -1,5 +1,7 @@
 # pi-java-enterprise
 
+[中文说明](README.zh-CN.md)
+
 A bilingual Pi package for enterprise Java backend development.
 
 `pi-java-enterprise` is designed for teams and individual developers using Pi in Spring Boot-based backend projects. It focuses on practical workflows for API delivery, debugging, test design, SQL troubleshooting, and project-aware assistance.
@@ -119,6 +121,8 @@ pi install -l /absolute/path/to/pi-java-enterprise
 
 ## Documentation
 
+- `docs/usage-guide.en.md`
+- `docs/usage-guide.zh-CN.md`
 - `docs/package-overview.zh-CN.md`
 - `docs/package-overview.en.md`
 - `docs/skills-index.zh-CN.md`
