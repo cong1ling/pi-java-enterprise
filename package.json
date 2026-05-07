@@ -1,0 +1,54 @@
+{
+  "name": "pi-java-enterprise",
+  "version": "0.1.0",
+  "description": "A bilingual Pi package for enterprise Java backend development with Spring Boot, MyBatis-Plus, MySQL, Redis, Kafka, Maven, and JUnit 5.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "java",
+    "spring-boot",
+    "mybatis-plus",
+    "mysql",
+    "redis",
+    "kafka",
+    "maven",
+    "junit5",
+    "backend",
+    "agent"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "author": "tan",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node scripts/validate-package.mjs",
+    "validate": "node scripts/validate-package.mjs"
+  },
+  "files": [
+    "skills",
+    "prompts",
+    "extensions",
+    "themes",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts"
+    ],
+    "themes": [
+      "./themes"
+    ]
+  }
+}
